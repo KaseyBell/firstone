@@ -4,10 +4,6 @@ class QuotesController < ApplicationController
     @quote = Quote.all.sample #order("Random()").first
   end
 
-  def new
-    @quote = Quote.new
-  end
-
   def create
     @quote = Quote.create(quote_params)
     if @quote.invalid?

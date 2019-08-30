@@ -58,7 +58,12 @@ h1 {
 
 h2 {
   font-family: 'aquilinetworegular', cursive;
-  font-size: 42px;
+  font-size: 38px;
+}
+
+h3 {
+  font-family: 'aquilinetworegular', cursive;
+  font-size: 26px;
 }
 
 .next-quote {
@@ -76,4 +81,28 @@ h2 {
 
 .logo:hover {
   text-decoration: none;
+}
+
+.about {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW      Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+@media (max-width: 750px) {
+  .footer-blurb {
+    text-align: left;
+  }
+}
+
+.modal {
+  font-family: "Palatino Linotype", Palatino, Palladio, "URW Palladio L", "Book Antiqua", Baskerville, "Bookman Old Style", "Bitstream Charter", "Nimbus Roman No9 L", Garamond, "Apple Garamond", "ITC Garamond Narrow", "New Century Schoolbook", "Century Schoolbook", "Century Schoolbook L", Georgia, serif;
+}
+
+h3 span {
+  color: #f84342;
+  font-family: 'aquilinetworegular', cursive;
+  font-size: 26px;
+}
+
+::selection {
+  background-color: #f84342;
 }
